@@ -9,7 +9,7 @@ git commit -m "First commit"->git push -u origin main  (AKV85)
 4.Antras komitas->merge pull request->confirm merge  (AKV85)
 
 5.git checkout -b join   (Sukuriam nauja atšaką(branchą) ,join- tai mano naujo brancho pavadinimas)->
-git remote add join https://github.com/AKV85/workTogetherStart.git   (dabar gitas ji stebi)->
+git remote add join https://github.com/AKV85/workTogetherStart.git  (dabar susiejam nauja branchą su nuotoline repozitoriją)->
 git pull join main --rebase  (gaunam pakeitimus i musu nauja atšaka(brancha) kurie atsirado po pakeitimu) ->
 git checkout main (pereinam i pagrindinę atšaką(branchą) ->
 git merge join  (kopijojam i musu pagrindinį branchą visus pakeitimus iš join brancho)   (AKV85)
