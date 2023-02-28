@@ -1,3 +1,7 @@
 1.Git init->make new repository-> git remote add origin https://github.com/AKV85/workTogetherStart.git->
 create new file->git add {file.name} or .(take all)->
 git commit -m "First commit"->git push -u origin main
+
+2 fetch->create fetch -> git clone https://github.com/PaulinaStan/workTogetherStart.git workTogether
+
+3 padarem pakeitimus -> git add . -> git commit -m "antras komitas" -> git push
