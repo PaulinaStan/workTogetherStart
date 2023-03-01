@@ -18,6 +18,18 @@ git merge join  (kopijojam i musu pagrindinį branchą visus pakeitimus iš join
 
 7.git checkout -b atsaka_2   (Sukuriam nauja atšaką(branchą) ,atsaka_2- tai mano naujo brancho pavadinimas)->
   git remote add atsaka_2 https://github.com/AKV85/workTogetherStart.git  (dabar susiejam nauja branchą su nuotoline repozitoriją)->
+  git stash save  "test"->
   git pull atsaka_2 --rebase  (gaunam pakeitimus i musu nauja atšaka(brancha) kurie atsirado po pakeitimu) ->
   git checkout main (pereinam i pagrindinę atšaką(branchą) ->
   git merge atsaka_2  (kopijojam i musu pagrindinį branchą visus pakeitimus iš atsaka_2 brancho)   (PaulinaStan)
+
+8.Susiliginau su nuotoline repozitorija -> git add . -> git commit -m "padariau nauja branch, supulinau ir su merginau" -> git push  (PaulinaStan)
+
+9.git remote add join https://github.com/AKV85/workTogetherStart.git  (dabar susiejam  branchą su nuotoline repozitoriją)->
+  git pull join main --rebase  (gaunam pakeitimus i musu atšaka(brancha) kurie atsirado po pakeitimu) ->
+  git checkout main (pereinam i pagrindinę atšaką(branchą) ->
+  git merge join  (kopijojam i musu pagrindinį branchą visus pakeitimus iš join brancho)   (AKV85)
+
+10.Susiliginau su nuotoline repozitorija -> git add . -> git commit -m "Make some changes in comments" -> git push  (AKV85)
+
+
