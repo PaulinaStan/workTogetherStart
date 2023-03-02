@@ -32,4 +32,9 @@ git merge join  (kopijojam i musu pagrindinį branchą visus pakeitimus iš join
 
 10.Susiliginau su nuotoline repozitorija -> git add . -> git commit -m "Make some changes in comments" -> git push  (AKV85)
 
+11.git checkout atsaka_2
+     git pull atsaka_2 main --rebase  (gaunam pakeitimus i musu atšaka(brancha) kurie atsirado po pakeitimu) ->
+     git checkout main (pereinam i pagrindinę atšaką(branchą) ->
+     git merge atsaka_2  (kopijojam i musu pagrindinį branchą visus pakeitimus iš atsaka_2 brancho)   (PaulinaStan)
 
+12.Susiliginau su nuotoline repozitorija -> git add . -> git commit -m "Make some changes in comments" -> git push  (PaulinaStan)
