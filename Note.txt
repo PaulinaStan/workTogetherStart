@@ -38,3 +38,5 @@ git merge join  (kopijojam i musu pagrindinį branchą visus pakeitimus iš join
      git merge atsaka_2  (kopijojam i musu pagrindinį branchą visus pakeitimus iš atsaka_2 brancho)   (PaulinaStan)
 
 12.Susiliginau su nuotoline repozitorija -> git add . -> git commit -m "Make some changes in comments" -> git push  (PaulinaStan)
+13.fork->create fork -> git clone https://github.com/Anzelika2022/workTogetherStart.git workTogether  (Anzelika2022)
+14.padarem pakeitimus -> git add . -> git commit -m "darem pakeitimus" -> git push  (Anzelika2022)
