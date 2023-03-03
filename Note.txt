@@ -44,4 +44,4 @@ git merge join  (kopijojam i musu pagrindinį branchą visus pakeitimus iš join
    git pull join main --rebase  (gaunam pakeitimus i musu atšaka(brancha) kurie atsirado po pakeitimu) ->
    git checkout main (pereinam i pagrindinę atšaką(branchą) ->
    git merge join  (kopijojam i musu pagrindinį branchą visus pakeitimus iš join brancho)   (AKV85)
-16.Atnaujinai Note.txt faila -> git add . -> git commit -m "Atnaujinau Note.txt faila" -> git push  (Anzelika2022)
+16.Atnaujinai Note.txt faila -> git add . -> git commit -m "Atnaujinau Note.txt faila" -> git push  (AKV85)
