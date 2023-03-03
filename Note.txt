@@ -2,7 +2,7 @@
 create new file->git add {file.name} or .(take all)->
 git commit -m "First commit"->git push -u origin main  (AKV85)
 
-2. fetch->create fetch -> git clone https://github.com/PaulinaStan/workTogetherStart.git workTogether  (PaulinaStan)
+2. fork->create fork -> git clone https://github.com/PaulinaStan/workTogetherStart.git workTogether  (PaulinaStan)
 
 3. padarem pakeitimus -> git add . -> git commit -m "antras komitas" -> git push  (PaulinaStan)
 
@@ -25,7 +25,7 @@ git merge join  (kopijojam i musu pagrindinį branchą visus pakeitimus iš join
 
 8.Susiliginau su nuotoline repozitorija -> git add . -> git commit -m "padariau nauja branch, supulinau ir su merginau" -> git push  (PaulinaStan)
 
-9.git remote add join https://github.com/AKV85/workTogetherStart.git  (dabar susiejam  branchą su nuotoline repozitoriją)->
+9.git checkout join->
   git pull join main --rebase  (gaunam pakeitimus i musu atšaka(brancha) kurie atsirado po pakeitimu) ->
   git checkout main (pereinam i pagrindinę atšaką(branchą) ->
   git merge join  (kopijojam i musu pagrindinį branchą visus pakeitimus iš join brancho)   (AKV85)
@@ -40,3 +40,8 @@ git merge join  (kopijojam i musu pagrindinį branchą visus pakeitimus iš join
 12.Susiliginau su nuotoline repozitorija -> git add . -> git commit -m "Make some changes in comments" -> git push  (PaulinaStan)
 13.fork->create fork -> git clone https://github.com/Anzelika2022/workTogetherStart.git workTogether  (Anzelika2022)
 14.padarem pakeitimus -> git add . -> git commit -m "darem pakeitimus" -> git push  (Anzelika2022)
+15.git checkout join->
+   git pull join main --rebase  (gaunam pakeitimus i musu atšaka(brancha) kurie atsirado po pakeitimu) ->
+   git checkout main (pereinam i pagrindinę atšaką(branchą) ->
+   git merge join  (kopijojam i musu pagrindinį branchą visus pakeitimus iš join brancho)   (AKV85)
+16.Atnaujinai Note.txt faila -> git add . -> git commit -m "Atnaujinau Note.txt faila" -> git push  (Anzelika2022)
